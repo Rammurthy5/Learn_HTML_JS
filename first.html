@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+    <head>
+        <title>
+            Title!!!
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        hey this is body with aqua background color.!
+        <a href="#z1">Goto Last</a>
+        <h1 id="a1" style="font-size: 20px;background-color: whitesmoke;">
+            Basics
+            <p>
+                Paragraph - 1
+                <a href="http://www.google.com">Google Web</a><br>
+                <a href="http://www.apple.com">Apple Web</a>
+            </p>
+            <br>
+            <img src="Gass.png" alt="Alternate Text as PIC unavailable" width="100" height="100"> 
+            <p title="Lets practice Lists">
+                <ul>
+                    <li>Unordered Item 1</li>
+                    <li>UnOrdered 2</li>
+                    <li>UnOrdered 3</li>
+                    <li>UnOrdered 4</li>
+                </ul>
+                <br>
+                <ol>
+                    <li>Ordered 1</li>
+                    <li>Ordered 2</li>
+                    <li>Ordered 3</li>
+                </ol>
+            </p>
+            <p title="Learning Styles" style="color:red">
+                Title check for Paragraph. Hover here.
+            </p>
+        </h1>
+        <hr>
+        <h2 style="border-style: groove;font-size: 20px;">
+            CSS - Cascading Style Sheets
+            <p>
+                There are 3 different ways to use CSS: Inline, Internal, External<br>
+                <pre>
+                    We can define one style by using tag like this in the head tag.
+                    &lt;style&gt;
+                          body {background-color: powderblue;}
+                          h1   {color: blue;}
+                          p    {background-color: red;}
+                          &lt;style&gt;
+                </pre>
+                <br>
+                <pre style="box-sizing: content-box;">
+                    Other way is External links mentioning in head tag.
+                    &lt;link rel="stylesheet" href="styles.css"&gt;
+
+                    Write a css like 
+                    body {
+                        background-color: powderblue;
+                      }
+                      h1 {
+                        color: blue;
+                      }
+                      p {
+                        color: red;
+                        border: 1px solid powderblue;
+                        font-family: courier;
+                        font-size: 160%;
+                        padding: 30px;  padding help to define space between text & border.
+                      }
+                </pre><br>
+                <style>
+                #p01 {
+                    color: blue;
+                }
+                p.error {
+                    color: red;
+                }
+                </style>
+                <p id='p01'> This is different. id tag used to define separate styling for one element alone.</p>
+                <p class='error'>
+                    Class Attribute.
+                </p>
+            </p>
+        </h2>
+        <hr>
+        <h3 style="font-size: 20px;background-color: cadetblue;">
+            Different Formats!!!!
+            <pre>
+                This is a pre-formatted text.
+                This just displays exactly whats typed in 
+                The s
+                o
+                urce
+            </pre>
+            <p>
+              This is different formats of font.
+              <i>Italic</i>
+              <b>Bold</b>
+              <em>Emphasized.</em>
+              <strong>Strong.</strong>
+              <mark>Marked.</mark>
+              <small>Small.</small>
+              <del>Deleted.</del>
+              <ins>Inserted.</ins>
+              <sup>Superscript.</sup>
+              <sub>Subscript.</sub>
+            </p>
+        </h3>
+        <hr>
+        <h4 style="font-size: 20px;background-color: green;">
+            Quotations
+            <p style="font-size: x-small;">
+                <q>Quoted Text.</q><br>
+                <blockquote style="font-size:x-small;">Blockquote here --- 
+                    Darkness cannot drive away Darkness, only Light can do that. Likewise Hatred cannot
+                    driveaway Hatred, only Love can do that.
+                </blockquote>
+                <cite style="font-size: x-small;"> cite tag-- Dr <abbr title="Martin Luther King">MLK</abbr> Jr.</cite>
+                <br>
+                <bdo dir="rtl" style="font-size: x-small;"> This is Bi-directional bdo tag text, writtent rtl --> from Right to Left</bdo>
+                <address style="font-size: x-small;">
+                    Address tag<br>
+                    #1<br>
+                    Santa Cruz valley <br>
+                    Cali.<br>
+                    USA.
+                </address>
+            </p>
+            <p style="border-color: tomato;font-size: x-small;">
+                This will be bordered with tomato color. 
+                styled using border-color attr.
+            </p>
+        </h4>
+        <hr>
+        <h5 style="font-size: 20px;background-color: yellowgreen;">
+            HTML Links
+            
+            <p style="font-size: x-small;"> 
+                <a href="http://www.apple.com" target="_blank">Hyperlinks 'Target' Tag. "_blank", "_top", "_self", "_parent"</a>
+                Image as Link below.<br>
+                <a href="http://www.apple.com" target="_blank">
+                    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+                </a>
+            </p>
+            <a href="http://www.apple.com" title="Link Title">Link with title(Hover)</a> 
+        </h5>
+        <hr>
+        <div>
+            <h6 id="z1" style="font-size: 15px;">
+                Link with Bookmark, and different styles for hover, clicked.
+                <style> 
+                    a:hover{
+                        color: royalblue;
+                        text-decoration: underline;
+                        text-align: end;
+                    }
+                    a:visited a:active{
+                        color:black;
+                        text-shadow: lightseagreen;
+                    }
+                </style> 
+                <a href="http://www.apple.com" title="Link Title">Link with title(Hover)</a>
+                <a href="#a1"> Goto Top</a>
+                <br>
+                <!--<img src='Gas.png' style="float: left;width: 25%;height: 25%;"> Floating Image. Try to pull it over to left / right.-->
+            </h6>
+        </div>
+        <hr>
+        <div>
+            <h7>London</h7>
+            <p>Yo! Bro!</p>
+            <marquee>This is a rolling text. Breaking: Boris Johnson is tested +ve for Covid.</marquee>
+        </div>
+    </body>
+</html>
